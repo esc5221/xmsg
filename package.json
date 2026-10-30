@@ -1,0 +1,10 @@
+{
+  "name": "xmsg",
+  "version": "0.1.0",
+  "description": "Message bus between running coding-agent sessions (Claude Code, Codex, omp) on one machine or across machines",
+  "type": "module",
+  "bin": { "xmsg": "./bin/xmsg" },
+  "files": ["bin", "src", "omp"],
+  "scripts": { "test": "node --test" },
+  "private": true
+}

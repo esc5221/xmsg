@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="642" viewBox="0 0 1280 642" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"><rect width="1280" height="642" fill="#0d1015"/>
+<text x="32" y="50" font-size="30" xml:space="preserve"><tspan fill="#f5f6f8" font-weight="700">xmsg</tspan></text>
+<text x="114" y="50" font-size="15" xml:space="preserve"><tspan fill="#7d828c">messages between running agent sessions, on one machine or across several</tspan></text>
+<rect x="32" y="78" width="596" height="388" rx="10" fill="#1b1d22" stroke="#2c2f36"/>
+<path d="M32 88 a10 10 0 0 1 10 -10 h576 a10 10 0 0 1 10 10 v18 h-596 z" fill="#26282e"/>
+<circle cx="50" cy="92" r="5.5" fill="#ff5f57"/>
+<circle cx="68" cy="92" r="5.5" fill="#febc2e"/>
+<circle cx="86" cy="92" r="5.5" fill="#28c840"/>
+<text x="279.6" y="97" font-size="12" xml:space="preserve"><tspan fill="#7d828c">laptop — codex</tspan></text>
+<rect x="40" y="118" width="580" height="21" fill="#2b2e35"/>
+<text x="48" y="132" font-size="13" xml:space="preserve"><tspan fill="#7d828c">› </tspan><tspan fill="#f5f6f8">ask review on desktop whether migration 0042 is safe</tspan></text>
+<text x="48" y="151" font-size="13" xml:space="preserve"></text>
+<text x="48" y="170" font-size="13" xml:space="preserve"><tspan fill="#5fbf6f" font-weight="700">• </tspan><tspan fill="#f5f6f8" font-weight="700">Ran </tspan><tspan fill="#d4d7dd">xmsg send desktop/claude:review &quot;Is 0042 safe?&quot;</tspan></text>
+<text x="48" y="189" font-size="13" xml:space="preserve"><tspan fill="#7d828c">  └ 3f9a1c20  laptop/codex:build → desktop/claude:review </tspan><tspan fill="#5fbf6f">delivered</tspan></text>
+<text x="48" y="208" font-size="13" xml:space="preserve"></text>
+<rect x="40" y="213" width="580" height="97" fill="#2b2e35"/>
+<text x="48" y="227" font-size="13" xml:space="preserve"><tspan fill="#7d828c">› </tspan><tspan fill="#d4d7dd">[xmsg] Message from </tspan><tspan fill="#5fb3c7">desktop/claude:review</tspan><tspan fill="#7d828c"> — another agent</tspan></text>
+<text x="48" y="246" font-size="13" xml:space="preserve"><tspan fill="#7d828c">  session, delivered by xmsg. Your user did not type this.</tspan></text>
+<text x="48" y="265" font-size="13" xml:space="preserve"><tspan fill="#7d828c">  To answer, run: xmsg send desktop/claude:review &quot;&lt;reply&gt;&quot;</tspan></text>
+<text x="48" y="284" font-size="13" xml:space="preserve"><tspan fill="#7d828c">  ---</tspan></text>
+<text x="48" y="303" font-size="13" xml:space="preserve"><tspan fill="#f5f6f8">  Safe. It only adds a nullable column, so no table rewrite.</tspan></text>
+<text x="48" y="322" font-size="13" xml:space="preserve"></text>
+<text x="48" y="341" font-size="13" xml:space="preserve"><tspan fill="#f5f6f8">• </tspan><tspan fill="#d4d7dd">review says 0042 only adds a nullable column. Running it.</tspan></text>
+<text x="48" y="360" font-size="13" xml:space="preserve"><tspan fill="#5fbf6f" font-weight="700">• </tspan><tspan fill="#f5f6f8" font-weight="700">Ran </tspan><tspan fill="#d4d7dd">npm run migrate</tspan></text>
+<text x="48" y="379" font-size="13" xml:space="preserve"><tspan fill="#7d828c">  └ </tspan><tspan fill="#5fbf6f">✓</tspan><tspan fill="#7d828c"> 0042_add_archived_at (38 ms)</tspan></text>
+<text x="48" y="414" font-size="13" xml:space="preserve"><tspan fill="#7d828c">─ Worked for 21s ────────────────────────────────────────────────────</tspan></text>
+<text x="48" y="433" font-size="13" xml:space="preserve"><tspan fill="#f5f6f8">› </tspan><tspan fill="#7d828c">Ask Codex to do anything</tspan></text>
+<text x="48" y="452" font-size="13" xml:space="preserve"><tspan fill="#7d828c">  gpt · medium · ~/app</tspan></text>
+<rect x="652" y="78" width="596" height="388" rx="10" fill="#1b1d22" stroke="#2c2f36"/>
+<path d="M652 88 a10 10 0 0 1 10 -10 h576 a10 10 0 0 1 10 10 v18 h-596 z" fill="#26282e"/>
+<circle cx="670" cy="92" r="5.5" fill="#ff5f57"/>
+<circle cx="688" cy="92" r="5.5" fill="#febc2e"/>
+<circle cx="706" cy="92" r="5.5" fill="#28c840"/>
+<text x="892.4" y="97" font-size="12" xml:space="preserve"><tspan fill="#7d828c">desktop — claude</tspan></text>
+<rect x="660" y="118" width="580" height="21" fill="#2b2e35"/>
+<text x="668" y="132" font-size="13" xml:space="preserve"><tspan fill="#7d828c">› </tspan><tspan fill="#b392f0">Message from @laptop-codex-build: </tspan><tspan fill="#f5f6f8">Is 0042 safe?</tspan></text>
+<text x="668" y="151" font-size="13" xml:space="preserve"></text>
+<text x="668" y="170" font-size="13" xml:space="preserve"><tspan fill="#5fbf6f">⏺ </tspan><tspan fill="#f5f6f8" font-weight="700">Read</tspan><tspan fill="#d4d7dd">(db/migrations/0042_add_archived_at.sql)</tspan></text>
+<text x="668" y="189" font-size="13" xml:space="preserve"><tspan fill="#7d828c">  ⎿  Read 4 lines</tspan></text>
+<text x="668" y="208" font-size="13" xml:space="preserve"></text>
+<text x="668" y="227" font-size="13" xml:space="preserve"><tspan fill="#f5f6f8">⏺ </tspan><tspan fill="#d4d7dd">ADD COLUMN with no default and no NOT NULL, so Postgres</tspan></text>
+<text x="668" y="246" font-size="13" xml:space="preserve"><tspan fill="#d4d7dd">  only touches the catalog. Replying to the sender.</tspan></text>
+<text x="668" y="265" font-size="13" xml:space="preserve"></text>
+<text x="668" y="284" font-size="13" xml:space="preserve"><tspan fill="#5fbf6f">⏺ </tspan><tspan fill="#f5f6f8" font-weight="700">SendMessage</tspan><tspan fill="#d4d7dd">(laptop-codex-build)</tspan></text>
+<text x="668" y="303" font-size="13" xml:space="preserve"><tspan fill="#7d828c">  ⎿  &quot;Safe. It only adds a nullable column…&quot;</tspan></text>
+<text x="668" y="322" font-size="13" xml:space="preserve"><tspan fill="#7d828c">     → uds:/tmp/cc-socks/xm-4c1e09b7a2d3.sock</tspan></text>
+<text x="668" y="341" font-size="13" xml:space="preserve"></text>
+<text x="668" y="360" font-size="13" xml:space="preserve"><tspan fill="#f5f6f8">⏺ </tspan><tspan fill="#d4d7dd">Answered laptop/codex:build: 0042 is safe to run.</tspan></text>
+<text x="668" y="379" font-size="13" xml:space="preserve"></text>
+<text x="668" y="398" font-size="13" xml:space="preserve"><tspan fill="#d97757">✻ </tspan><tspan fill="#7d828c">Cooked for 9s</tspan></text>
+<text x="668" y="414" font-size="13" xml:space="preserve"><tspan fill="#7d828c">────────────────────────────────────────────────────────────────────────</tspan></text>
+<text x="668" y="433" font-size="13" xml:space="preserve"><tspan fill="#f5f6f8">❯ </tspan></text>
+<text x="668" y="452" font-size="13" xml:space="preserve"><tspan fill="#7d828c">────────────────────────────────────────────────────────────────────────</tspan></text>
+<text x="668" y="466" font-size="13" xml:space="preserve"></text>
+<rect x="616.0" y="198" width="48" height="92" rx="8" fill="#1b1d22" stroke="#2c2f36"/>
+<text x="632.0" y="228" font-size="20" xml:space="preserve"><tspan fill="#d8b45c">→</tspan></text>
+<text x="629.0" y="250" font-size="11" xml:space="preserve"><tspan fill="#7d828c">ssh</tspan></text>
+<text x="632.0" y="276" font-size="20" xml:space="preserve"><tspan fill="#5fb3c7">←</tspan></text>
+<rect x="32" y="488" width="1216" height="132" rx="10" fill="#1b1d22" stroke="#2c2f36"/>
+<path d="M32 498 a10 10 0 0 1 10 -10 h1196 a10 10 0 0 1 10 10 v18 h-1216 z" fill="#26282e"/>
+<circle cx="50" cy="502" r="5.5" fill="#ff5f57"/>
+<circle cx="68" cy="502" r="5.5" fill="#febc2e"/>
+<circle cx="86" cy="502" r="5.5" fill="#28c840"/>
+<text x="596.8" y="507" font-size="12" xml:space="preserve"><tspan fill="#7d828c">laptop — zsh</tspan></text>
+<text x="48" y="542" font-size="13" xml:space="preserve"><tspan fill="#5fbf6f">~ </tspan><tspan fill="#7aa2f7">❯ </tspan><tspan fill="#d4d7dd">xmsg log -n 2</tspan></text>
+<text x="48" y="561" font-size="13" xml:space="preserve"><tspan fill="#7d828c">ID        AGE  FROM                    TO                      STATUS     VIA</tspan></text>
+<text x="48" y="580" font-size="13" xml:space="preserve"><tspan fill="#d8b45c">8b2e44d1</tspan><tspan fill="#d4d7dd">  41s  desktop/claude:review   laptop/codex:build      </tspan><tspan fill="#5fbf6f">delivered</tspan><tspan fill="#7d828c">  codex:steer</tspan></text>
+<text x="48" y="599" font-size="13" xml:space="preserve"><tspan fill="#d8b45c">3f9a1c20</tspan><tspan fill="#d4d7dd">  58s  laptop/codex:build      desktop/claude:review   </tspan><tspan fill="#5fbf6f">delivered</tspan><tspan fill="#7d828c">  peer:desktop</tspan></text></svg>
